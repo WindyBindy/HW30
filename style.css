@@ -1,0 +1,29 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    animation-name: hdsa;
+    animation-duration:2000ms;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes hdsa {
+    25% {
+        transform: translate(0px, 500px);
+        background-color: blue;
+    }
+  
+    50% {
+        transform: translate(500px, 500px);
+        background-color: darkgreen;
+    }
+    75%{
+        transform: translate(500px, 0px);
+        background-color: yellow;
+    }
+  
+    100% {
+      /* Властивості для зміни */
+    }
+  }
